@@ -1,0 +1,260 @@
+print("Hello,World!")
+
+Output:
+Hello,World!
+
+x = 1
+#the initial value of x is 1
+if x >0:
+    print("These are two comments") #Print a string
+
+print("Statement1")
+print("Statement2")
+
+#you can write above two statements in the following way
+print("Statement1"); print("Statement2")
+
+Output:
+Statement1
+Statement2
+Statement1
+Statement2
+
+
+x=1
+if x>0:
+print("this statement has no indentation")
+print("this statement has no indentation")
+
+Output:
+Indentation error. Expected an indented block
+
+x=1
+if x>0:
+ print("this statement has single space indentation")
+ print("this statement has single space indentation")
+
+Output:
+this statement has single space indentation
+this statement has single space indentation
+
+
+ x=1
+ if x>0:
+     print("this statement has single space+tab indentation")
+     print("this statement has single space+tab indentation")
+
+Output:
+this statement has single space+tab indentation
+this statement has single space+tab indentation
+
+
+
+a = 1452
+print(type(a)) 
+ 
+Output:
+ <class 'int'>
+
+b = -4587
+print(type(b))
+  
+Output:
+ <class 'int'>
+
+c = 0
+print(type(c)) 
+ 
+ Output: 
+<class 'int'>
+
+g = 1.03
+print(type(g))
+  
+Output: 
+<class 'float'>
+
+h = -11.23
+print(type(h)) 
+
+Output: 
+<class 'float'>
+
+i = .34
+print(type(i))  
+
+Output:
+ <class 'float'>
+
+j = 2.12e-10
+print(type(j)) 
+ 
+ Output:
+ <class 'float'>
+
+k = 5E220
+print(type(k))
+  
+ Output:
+<class 'float'>
+
+x=complex(1,2)
+print(type(x))
+
+Output:
+<class 'complex'>
+
+x = complex(1,2)
+print(type(x))  
+
+Output:
+ <class 'complex'>
+print(x) 
+
+Output:
+ (1+2j)
+
+z = 1+2j
+print(type(z))  
+Output: 
+<class 'complex'>
+
+z = 1+2J
+print(type(z))  
+Output:
+ <class 'complex'>
+
+x=True
+print(type(x))
+
+Output:
+<class 'bool'>
+
+y=False
+print(type(y))
+
+Output:
+<class 'bool'>
+
+str1 = "String"  # Strings start and end with double quotes
+print(str1)  
+
+Output:
+ String
+
+str2 = 'String'  # Strings start and end with single quotes
+print(str2) 
+ 
+Output:
+ String
+
+str3 = "String'  # Strings start with double quote and end with single quote
+
+Output:
+# SyntaxError: EOL while scanning string literal
+
+str1 = 'String"  # Strings start with single quote and end with double quote
+
+Output:
+ SyntaxError: EOL while scanning string literal
+
+str2 = "Day's"  # Single quote within double quotes
+print(str2)  
+
+Output: Day's
+
+str2 = 'Day"s'  # Double quote within single quotes
+print(str2)
+  
+Output: 
+ Day"s
+
+
+print("The is a backslash (\\) mark.")
+
+Output:
+The is a backslash (\) mark.
+
+ print("This is tab \t key")
+
+Output:
+This is tab    key
+
+ print("These are \'single quotes\'")
+
+Output:
+These are 'single quotes'
+
+ print("These are \"double quotes\"")
+
+Output:
+These are "double quotes"
+
+print("This is a new line\nNew line")
+
+Output:
+This is a new line
+New line
+
+
+  
+
+print(string1[0])  # Print first character  
+
+Output:
+P  
+
+print(string1[-15])  # Print first character 
+
+Output: 
+P  
+
+print(string1[14])  # Print last character
+
+OutPut:  
+L  
+
+print(string1[-1])  # Print last character  
+
+Output:
+L  
+
+print(string1[4])  # Print 4th character  
+
+Output:
+O  
+
+print(string1[-11])  # Print 4th character  
+
+Output:
+O  
+
+print(string1[16])  # Out of index range 
+
+Output: 
+Traceback (most recent call last):  
+  File "<pyshell#7>", line 1, in <module>  
+    print(string1[16])  # Out of index range  
+IndexError: string index out of range  
+
+mylist1=[5, 12 , 13 ,14]
+print(mylist1)
+
+Output:
+    [5, 12 , 13 ,14]
+
+mylist2=['red', 'blue' , 'black' ,'white']
+print(mylist2)
+
+Output:
+    ['red', 'blue' , 'black' ,'white']
+
+mylist3 =['red', 12 , 112.22 ]
+print(mylist3)
+
+Output:
+  ['red', 12 , 112.22 ]
+
+
+
+
